@@ -1,0 +1,88 @@
+.hotelinfo-table {
+    margin-left:auto; 
+    margin-right:auto;
+    border-spacing: 0px;
+    border-collapse: separate;
+    padding: 0 20px 0 20px;
+}
+
+.hotelinfo-table td.gmicon { 
+    vertical-align: middle;
+    width: 35;
+}
+
+.hotelinfo-table .hotel-info {
+    width: 200px;
+}
+
+.hotelinfo-table .hotel-aux-info {
+    vertical-align: middle;
+}
+
+.hotelinfo-table td.gmicon img { 
+    width: 35px;
+}
+
+.hotelinfo-table td { 
+    border-top: 1px dotted #959595;
+    padding: 20px 10px 5px 10px;
+}
+
+.hotelinfo-table tr:first-child td { 
+    border-top: none; 
+}
+
+.banner h4 {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif  ;
+	color: #585858;
+
+    font-weight: 0;
+    margin: 0 ;
+    text-transform:none;
+    padding: 0 ;
+}
+
+.banner h3 {
+    text-align: center ;
+    font-family:  "Monsieur La Doulaise" ;
+    /*font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif  !important;*/
+	color: #333 ;
+
+    margin: 50px 0 0 0 ;
+    padding: 0 ;
+    font-weight: 0 ;
+
+    text-transform:none;
+}
+
+
+@media (min-width: 500px) {
+    .banner h4 {
+        font-size: 30px;
+    }
+
+    .banner h3 {
+        font-size: 70px ;
+        line-height: 70px ;
+    }
+}
+@media (max-width: 500px) {
+    .banner h4 {
+        font-size: 20px;
+    }
+
+    .banner h3 {
+        font-size: 50px ;
+        line-height: 50px ;
+    }
+}
+
+
+.carousel-indicators li {
+    border: 1px solid rgba(255,255,255,0.35) !important;
+}
+
+.carousel-indicators .active {
+    border: 0px solid rgba(255,255,255,0.5) !important;
+    background-color: rgba(255,255,255,0.5) !important;
+}
